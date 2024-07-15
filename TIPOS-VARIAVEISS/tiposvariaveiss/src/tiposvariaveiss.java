@@ -19,6 +19,5 @@ public class tiposvariaveiss {
         System.out.println(numero);
 
         final double VALOR DE PI = 3.14;
-
     }
 }
