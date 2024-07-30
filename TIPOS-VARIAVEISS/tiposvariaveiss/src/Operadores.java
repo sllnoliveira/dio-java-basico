@@ -1,14 +1,10 @@
 public class Operadores {
     public static void main(String[] args){
-           int numero = 5;
+           boolean variavel = true;
 
-           //x repeticao
+           variavel = !variavel;
+           System.out.println(variavel);
 
-           //numero = numero +1;
 
-           System.out.println( ++ numero);
-
-           System.out.println(numero);
-
-    }
 }
+ }
