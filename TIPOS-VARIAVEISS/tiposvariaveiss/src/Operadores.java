@@ -1,35 +1,23 @@
 public class Operadores {
     public static void main(String[] args){
-       //operadores relacionais
-       String nomeUm = "GLAYSON";
-       String nomeDois = "GLAYSON";
+       //operadores logicos
 
-       System.out.println(nomeUm.equals(nomeDois));
-       
+       boolean condicao1=true;
 
+       boolean condicao2=false;
 
+       if (condicao1 && condicao2) {
 
-       int numero1 = 1;
-       int nuemro2 = 2;
-
-     boolean simNao = numero1 == nuemro2;
-
-    if (numero1 < nuemro2) {
-        System.out.println("A nossa condição é verdadeira");
+        System.out.println("as duas condições são verdadeira");
         
-    }
+       }
 
-       System.out.println("numeroUm é igual a nuemroDois? " + simNao);
+       if (condicao1 || condicao2) {
+        System.out.println("Uma das condições é verdadeira");
+        
+       }
 
-
-       simNao = numero1 != nuemro2;
-
-       System.out.println("numeroUm é diferente a nuemroDois? " + simNao);
-
-
-       simNao = numero1 > nuemro2;
-
-       System.out.println("numeroUm é maior a nuemroDois? " + simNao);
-
+       System.out.println("fim");
+       
     }
 }
