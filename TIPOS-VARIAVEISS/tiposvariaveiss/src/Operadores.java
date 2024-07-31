@@ -1,10 +1,23 @@
 public class Operadores {
     public static void main(String[] args){
-           boolean variavel = true;
+       //operadores relacionais
+        
+       int numero1 = 1;
+       int nuemro2 = 2;
 
-           variavel = !variavel;
-           System.out.println(variavel);
+     boolean simNao = numero1 == nuemro2;
+
+       System.out.println("numeroUm é igual a nuemroDois? " + simNao);
 
 
+       simNao = numero1 != nuemro2;
+
+       System.out.println("numeroUm é diferente a nuemroDois? " + simNao);
+
+
+       simNao = numero1 > nuemro2;
+
+       System.out.println("numeroUm é maior a nuemroDois? " + simNao);
+
+    }
 }
- }
